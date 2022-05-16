@@ -1,7 +1,7 @@
 # Storefront Backend Project
 
 ## Prepare env
-- create  `.env` file 
+- create  `.env` file in the root directory and set the missing `###` environment parameters
 
 POSTGRES_HOST=127.0.0.1
 POSTGRES_PORT=5432
@@ -13,7 +13,8 @@ BCRYPT_PASSWORD=###
 SALT_ROUNDS=10
 TOKEN_SECRET=###
 
-- create a `database.json` file
+- create a `database.json` filethe root directory and set the missing `###` parameters
+
 {
   "dev": {
     "driver": "pg",
@@ -31,4 +32,7 @@ TOKEN_SECRET=###
 - `npm run db-up` to set up the database
 - `npm run test` to run jasmine tests
 - `npm run build` to build the app
+
+## Start the app
+
 - `npm run start` to start the app
